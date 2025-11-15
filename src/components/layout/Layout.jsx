@@ -76,7 +76,7 @@ export default function Layout({ children, currentPageName }) {
         <nav id="divNav" className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between ">
             {/* Logo */}
-            <Link to={createPageUrl("Home")} className="flex items-center gap-2 group w-24"> <img src={logo}></img></Link>
+              <Link to={createPageUrl("Home")} className="flex items-center gap-2 group w-24"> <img src={logo} alt="Inova Byte Logo" loading="eager" decoding="async" /></Link>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-6">
@@ -149,7 +149,7 @@ export default function Layout({ children, currentPageName }) {
               <div className="flex items-center gap-2 mb-4">
                 <div>
                 </div>
-                <Link to={createPageUrl("Home")} className="flex items-center gap-2 group w-24"> <img src={logo}></img></Link>
+                  <Link to={createPageUrl("Home")} className="flex items-center gap-2 group w-24"> <img src={logo} alt="Inova Byte Logo" loading="eager" decoding="async" /></Link>
               </div>
               <p className="text-sm text-[#A6A6A6] mb-4 max-w-md">
                 Soluções digitais que transformam realidades. Conectamos tecnologia e propósito para

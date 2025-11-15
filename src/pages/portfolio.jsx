@@ -117,6 +117,8 @@ export default function Portfolio() {
                     <img
                       src={featuredProject.image}
                       alt={featuredProject.title}
+                       loading="lazy"
+                       decoding="async"
                       className="absolute inset-0 w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent" />
@@ -190,6 +192,8 @@ export default function Portfolio() {
                   <img
                     src={project.image}
                     alt={project.title}
+                     loading="lazy"
+                     decoding="async"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent" />

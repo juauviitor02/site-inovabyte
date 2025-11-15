@@ -78,6 +78,7 @@ export default function UserFlowSimulator() {
             {steps.map((_, index) => (
               <Fragment key={index}>
                 <button
+                   type="button"
                   onClick={() => setCurrentStep(index)}
                   className={`w-10 h-10 rounded-full border-2 flex items-center justify-center font-bold text-sm transition-all ${
                     index === currentStep
@@ -125,6 +126,8 @@ export default function UserFlowSimulator() {
                       <img
                         src={steps[currentStep].screen}
                         alt={steps[currentStep].title}
+                         loading="lazy"
+                         decoding="async"
                         className="w-full h-full object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#4169E1]/80 to-transparent flex items-end">

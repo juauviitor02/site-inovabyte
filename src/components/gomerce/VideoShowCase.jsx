@@ -144,6 +144,7 @@ export default function VideoShowcase() {
 
             <div className="flex gap-4">
               <button
+                 type="button"
                 onClick={handlePlay}
                 className="bg-[#4169E1] hover:bg-[#3157c9] text-white font-bold px-8 py-6 rounded-xl shadow-[0_0_20px_rgba(65,105,225,0.3)] group transition-all"
               >
