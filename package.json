@@ -29,6 +29,7 @@
     "globals": "^16.4.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
-    "vite": "^7.1.7"
+    "vite": "^7.1.7",
+    "@rollup/rollup-linux-x64-gnu": "latest"
   }
 }
